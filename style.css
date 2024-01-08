@@ -111,3 +111,56 @@ header h3 {
     background: none;
     text-decoration: none;
 }
+
+.time-section {
+    width: 1320px;
+    height: 482px;
+    margin: 120px 140px;
+    background: rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%;
+}
+
+.time-content {
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    padding: 100px 385px 215px;
+    margin-bottom: 48px;
+}
+
+.time-content p {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.time-content span {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.time-content button {
+    width: 175px;
+    height: 55px;
+    color: #FFF;
+    border-radius: 8px;
+    background: #F00;
+    text-align: center;
+    display: inline-flex;
+    margin: 0px 200px 110px;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
