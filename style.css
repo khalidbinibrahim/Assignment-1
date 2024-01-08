@@ -7,7 +7,7 @@ body {
 
 header {
     margin: 50px 140px;
-    max-width: 1320px;
+    max-width: 1600px;
     height: 600px;
     border-radius: 16px;
     background: url('./resources/Banner\ Image.png'), lightgray 50% / cover no-repeat;
@@ -211,7 +211,7 @@ header h3 {
 
 .subscribe-section {
     width: 1320px;
-    height: 616px;
+    height: 700px;
     margin: 120px 140px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
@@ -220,7 +220,7 @@ header h3 {
 .subscribe-content {
     align-items: center;
     justify-content: center;
-    margin: 250px auto;
+    margin: 128px 0;
 }
 
 .subscribe-content img {
@@ -239,6 +239,7 @@ header h3 {
     font-weight: 900;
     text-transform: capitalize;
     margin-bottom: 22px;
+    padding: 0 160px;
 }
 
 .subscribe-content p {
@@ -250,19 +251,28 @@ header h3 {
     font-weight: 400;
     line-height: 32px;
     margin-bottom: 48px;
-    padding: 0 220px;
+    padding: 0 240px;
 }
 
 .subscribe-btn {
+    width: 648px;
+    height: 72px;
     display: flex;
     max-width: 800px;
-    margin: 20px auto;
+    margin: 80px auto;
 }
 
 .subscribe-btn input {
+    color: rgba(7, 2, 17, 0.30);
     flex-grow: 1;
     border: none;
-    border-radius: 50px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    background: #FFF;
+    padding: 25px 30px;
 }
 
 .subscribe-btn button {
@@ -275,4 +285,79 @@ header h3 {
     border-radius: 0px 50px 50px 0px;
     padding: 24px 56px;
     background: #F00;
+}
+
+.footer-section {
+    width: 1600px;
+    height: 700px;
+    margin: 120px 0px 0px 0px;
+    background: #070211;
+    padding: 0px 140px;
+}
+
+.footer-section hr {
+    height: 1px;
+    color: rgba(255, 255, 255, 0.15);
+    margin: 48px 0;
+    align-items: center;
+}
+
+.footer-content-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 120px;
+}
+
+.footer-content-2 {
+    align-items: center;
+    position: relative;
+    padding: 0px 615px;
+}
+
+.footer-content-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 120px 0;
+}
+
+#street-des {
+    width: 375px;
+    height: 80px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.web {
+    list-style-type: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+#phone {
+    list-style-image: url('./resources/Call.png');
+}
+
+#website {
+    list-style-image: url('./resources/Website.png');
+}
+
+.footer-content-2 img {
+    width: 64px;
+    height: 64px;
+    margin-right: 24px;
+}
+
+.footer-content-3 p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
 }
